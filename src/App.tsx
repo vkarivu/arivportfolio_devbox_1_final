@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import images from "./images";
+// import images from "./images";
 import ContactInfo from "./components/ContactInfo";
 
 interface AppProps {
@@ -16,7 +16,8 @@ const App: React.FC<AppProps> = ({ setCurrentComponent }) => {
         <div className="container_dp_Details">
           <div id="profilepicdiv">
             <img
-              src={images["profilepicture.jpg"]}
+              // src={images["profilepicture.jpg"]}
+              src="/src/images_fold/profilepicture.jpg"
               alt="Profile"
               className="profile-image"
             />

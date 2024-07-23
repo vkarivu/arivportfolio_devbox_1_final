@@ -1,6 +1,6 @@
 import React from "react";
 import "../Projects.css";
-import images from "../images";
+// import images from "../images";
 
 interface ProjectsProps {
   setCurrentComponent: (component: string) => void;
@@ -45,7 +45,7 @@ const Projects: React.FC<ProjectsProps> = ({ setCurrentComponent }) => {
       <div className="timeline">
         <h1>Arivarasan V. Kannagi</h1>
         <button onClick={() => setCurrentComponent("App")}>
-          <img src={images["exit1.jpg"]} alt="exit1" className="exit1" />
+          <img src="/src/images_fold/exit1.jpg" alt="exit1" className="exit1" />
         </button>
         {timelineData.map((item, index) => (
           <div key={index} className="timeline-item">
