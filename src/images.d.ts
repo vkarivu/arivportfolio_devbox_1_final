@@ -20,3 +20,17 @@ declare module "*.jpg" {
   const value: string;
   export default value;
 }
+
+// declare module "./images" {
+//   const images: {
+//     profilepicture: string;
+//     exit1: string;
+//     phoneSymb: string;
+//     emailsymbol: string;
+//     linkedinSymb: string;
+//     wasymb: string;
+//     github: string;
+//     ResumeSymb: string;
+//   };
+//   export default images;
+// }

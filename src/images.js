@@ -1,3 +1,4 @@
+// src/images.ts
 import github from "./images_fold/github.jpg";
 import profilepicture from "./images_fold/profilepicture.jpg";
 import emailsymbol from "./images_fold/emailsymbol.jpg";
@@ -20,4 +21,28 @@ const images = {
   "exit2.jpg": exit2,
 };
 
+// const images = {
+//   profilepicture: require("./profilepicture.jpg").default,
+//   exit1: require("./exit1.jpg").default,
+//   phoneSymb: require("./phoneSymb.jpg").default,
+//   emailsymbol: require("./emailsymbol.jpg").default,
+//   linkedinSymb: require("./linkedinSymb.jpg").default,
+//   wasymb: require("./wasymb.jpg").default,
+//   github: require("./github.jpg").default,
+//   ResumeSymb: require("./ResumeSymb.jpg").default,
+// };
+
+// const images = {
+//   profilepicture,
+//   github,
+//   emailsymbol,
+//   linkedinSymb,
+//   phoneSymb,
+//   ResumeSymb,
+//   wasymb,
+//   exit1,
+// };
+
 export default images;
+
+// export default images;
