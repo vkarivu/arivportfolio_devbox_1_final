@@ -17,7 +17,7 @@ const App: React.FC<AppProps> = ({ setCurrentComponent }) => {
           <div id="profilepicdiv">
             <img
               // src={images["profilepicture.jpg"]}
-              src="/src/images_fold/profilepicture.jpg"
+              src="/profilepicture.jpg"
               alt="Profile"
               className="profile-image"
             />

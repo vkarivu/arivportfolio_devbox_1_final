@@ -19,7 +19,7 @@ const ContactInfo: React.FC = () => {
         <div className="contact-group">
           <div className="contact-item">
             <img
-              src="/src/images_fold/phoneSymb.jpg"
+              src="/phoneSymb.jpg"
               alt="Phone Icon"
               className="contact-icon"
               onClick={() => copyToClipboard("216-418-0886")}
@@ -31,7 +31,7 @@ const ContactInfo: React.FC = () => {
           </div>
           <div className="contact-item">
             <img
-              src="/src/images_fold/emailsymbol.jpg"
+              src="/emailsymbol.jpg"
               alt="Email Icon"
               className="contact-icon"
               onClick={() => copyToClipboard("arivkannagi@gmail.com")}
@@ -45,7 +45,7 @@ const ContactInfo: React.FC = () => {
         <div className="contact-group">
           <div className="contact-item">
             <img
-              src="/src/images_fold/linkedinSymb.jpg"
+              src="/linkedinSymb.jpg"
               alt="LinkedIn Icon"
               className="contact-icon"
               onClick={() =>
@@ -64,7 +64,7 @@ const ContactInfo: React.FC = () => {
           </div>
           <div className="contact-item">
             <img
-              src="/src/images_fold/wasymb.jpg"
+              src="/wasymb.jpg"
               alt="WhatsApp Icon"
               className="contact-icon"
               onClick={() => copyToClipboard("https://wa.me/+12164180886")}
@@ -81,7 +81,7 @@ const ContactInfo: React.FC = () => {
           </div>
           <div className="contact-item">
             <img
-              src="/src/images_fold/github.jpg"
+              src="/github.jpg"
               alt="GitHub Icon"
               className="contact-icon"
               onClick={() => copyToClipboard("https://github.com/vkarivu")}
@@ -98,10 +98,14 @@ const ContactInfo: React.FC = () => {
           </div>
           <div className="contact-item">
             <img
-              src="/src/images_fold/ResumeSymb.jpg"
+              src="/ResumeSymb.jpg"
               alt="Resume Icon"
               className="contact-icon"
-              onClick={() => copyToClipboard("https://drive.google.com/drive/u/8/folders/1aLfsjHZspBbVu1kpQ3lP9GEKEgMUenDU")}
+              onClick={() =>
+                copyToClipboard(
+                  "https://drive.google.com/drive/u/8/folders/1aLfsjHZspBbVu1kpQ3lP9GEKEgMUenDU",
+                )
+              }
               style={{ cursor: "pointer" }} // Indicate that it's clickable
             />
             <a
