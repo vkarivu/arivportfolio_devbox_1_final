@@ -14,3 +14,9 @@ declare module "*.json" {
   const content: any;
   export default content;
 }
+
+// src/images.d.ts
+declare module "*.jpg" {
+  const value: string;
+  export default value;
+}
